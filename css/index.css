@@ -1,0 +1,35 @@
+body {margin: 0;padding: 0 0 1px;font-family:Roboto;min-height:400px;margin-bottom:100px;clear:both;}
+a:link {text-decoration:none;color: $(link.color);}
+a:visited {text-decoration:none;color: $(link.visited.color);}
+a:hover {color: $(link.hover.color);}
+::-webkit-scrollbar {background: #fff;display:none;}
+::-webkit-scrollbar-thumb {}
+::-webkit-scrollbar-track {}
+::-webkit-scrollbar {display:none;}
+@font-face {font-family: &#39;Roboto&#39;;font-weight: 400;src: local(&#39;Roboto Regular&#39;), local(&#39;Roboto-Regular&#39;), url(//fonts.gstatic.com/s/roboto/v14/2UX7WLTfW3W8TclTUvlFyQ.woff) format(&#39;woff&#39;);}
+#converter_background{max-width:600px;margin:0 auto;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+#converter_background #converter{background-color:#ffcbfe;width:93.33333333333333%;height:auto;padding:3.333333333333334%;position:relative;z-index:1;}
+#converter_background #converter #title{color:#8221ca;font-size:15px;font-family:Roboto;font-weight:500;text-align:left;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+#converter_background #converter #input_background{background-color:#ffffff;height:42px;border: 1px #8221ca solid;border-radius:2px;margin:16px auto 0 auto;}
+#converter_background #converter #input_background #video{color:#8221ca;font-size:15px;font-family:Roboto;font-weight:400;line-height:40px;float:left;width:82.67857142857143%;height:42px;border:none;margin:0 0.5357142857142857%;padding:0;}
+#converter_background #converter #input_background #button{color:#ffffff;background-color:#8221ca;font-size:15px;font-family:Roboto;font-weight:400;width:15.71428571428571%;height:36px;border:none;border-radius:2px;margin:3px 0.5357142857142857% 0 0;padding:0;}
+#converter_background #converter #thumbnail {width:240px;height:180px;background-image:url();background-size: 240px 180px;margin:0;padding:0;margin-top:10px;margin-left:10px;display: none;}
+#converter_background #converter #songtitle {color: #8221ca;font-size: 16px;font-family: Roboto;font-weight: 500;float: left;display: none;margin-top:10px;}
+#converter_background #converter #progressbar {margin-top: 30px;width: 400px;display: none;}
+#converter_background #converter #download{color: #ffffff;background-color: #8221ca;font-size: 40px;font-family: Roboto;font-weight: 400;width: 250px;height: 80px;border: none;border-radius: 2px;float: right;display: none;margin-top:35px;}
+#converter_background #formats{background-color:#8221ca;text-align:left;width:100%;height:42px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;position:relative;z-index:0;}
+#converter_background #formats > a{color:#ffffff;font-size:15px;font-family:Roboto;font-style:italic;font-weight:700;line-height:44px;text-align:center;text-decoration:none;float:left;height:42px;border-right:1px #bd80ea solid;padding:0 3.333333333333333%;display:inline-block;}
+#converter_background #formats > a:hover, #content #formats a:active{background-color:#58118c;}
+#converter_background #formats > .first{background-color:#58118c;border-bottom-left-radius:2px;}
+#particles-js{width: 100%;height: 100%;background-image: url('../img/bg.jpg');background-size: cover;background-position: 50% 50%;background-repeat: no-repeat;}
+#trigger{color: #ffffff;background-color: #8221ca;width:50px;height:50px;position:relative;}
+#menubutton{color: #ffffff;background-color: #8221ca;width:50px;height:50px;position:relative;}
+#menubuttonopen{color: #ffffff;background-color: #8221ca;width:50px;height:50px;position:relative;}
+#menu{position: absolute;transition: margin-left 1s;float: left; list-style: none;margin: 0 auto;display:none;}
+#cell span {float: right;max-width: 0px;overflow: hidden;transition: 1s ease-out;color: #ffffff;background-color: #8221ca;position:relative;border-radius:2px;margin-top: 28px;}
+#cell:hover span {max-width: 150px;padding:1px 5px 1px 5px;}
+#section{max-width:600px;margin:0 auto;}
+#section #logo{border:none;margin-top: 40px;margin-bottom:20px;}
+#vcounter{position:absolute;top:0;right:0;border-radius:2px;color: #ffffff;background-color: #8221ca;padding:1px 5px 1px 5px;}
+
+
